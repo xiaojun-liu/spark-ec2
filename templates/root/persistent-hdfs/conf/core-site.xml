@@ -45,4 +45,9 @@
     <value>tachyon.hadoop.TFS</value>
   </property>
 
+  <property>
+    <name>hadoop.security.group.mapping</name>
+    <value>org.apache.hadoop.security.ShellBasedUnixGroupsMapping</value>
+  </property>
+
 </configuration>
