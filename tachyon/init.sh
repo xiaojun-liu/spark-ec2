@@ -26,6 +26,9 @@ else
     0.4.1)
       wget https://s3.amazonaws.com/Tachyon/tachyon-0.4.1-bin.tar.gz
       ;;
+    0.5.0)
+      wget https://s3.amazonaws.com/spark-package/hadoop-2.4.1/tachyon-0.5.0-bin.tar.gz
+      ;;
     *)
       echo "ERROR: Unknown Tachyon version"
       return -1
